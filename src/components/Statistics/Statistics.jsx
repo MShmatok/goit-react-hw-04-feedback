@@ -1,4 +1,5 @@
-import PropTypes, { func } from 'prop-types';
+import React from 'react';
+import PropTypes from 'prop-types';
 import { Titles } from './Statistics.styled';
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
