@@ -1,4 +1,3 @@
-import { nanoid } from 'nanoid';
 import { FeedbackOptionsBTN } from './FeedbackOptions.styled';
 import PropTypes from 'prop-types';
 
