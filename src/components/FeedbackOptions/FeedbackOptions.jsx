@@ -4,9 +4,8 @@ import PropTypes from 'prop-types';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return options.map(option => {
-    const id = nanoid();
     return (
-      <FeedbackOptionsBTN name={option} key={id} onClick={onLeaveFeedback}>
+      <FeedbackOptionsBTN key={option} onClick={() => onLeaveFeedback(option)}>
         {option}
       </FeedbackOptionsBTN>
     );
