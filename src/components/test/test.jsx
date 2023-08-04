@@ -6,7 +6,7 @@ class Test extends Component {
     y: '50',
     z: '55',
     xx: 20,
-    yy: 10,
+    yy: 100,
     zz: 5,
   };
   setValueX = e => {
