@@ -4,6 +4,7 @@ import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 import Section from './Section/Section';
 import Notification from './Notification/Notification';
 import { Container } from './App.styled';
+import Test from './test/test';
 
 export class App extends Component {
   state = {
@@ -56,6 +57,7 @@ export class App extends Component {
             <Notification message="There is no feedback" />
           )}
         </Section>
+        <Test />
       </Container>
     );
   }
